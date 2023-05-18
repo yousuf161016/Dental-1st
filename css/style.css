@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4,  h5, h6, ul p{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 15px 0;
+}
+.info{
+    display: flex;
+    text-align: center;
+    margin-left: 30px;
+}
+.icon{
+    font-size: 25px;
+    color: #f69165;
+    margin-right: 8px;
+}
+.content{
+
+}
+.content h4{
+    font-size: 15px;
+    color: #000000;
+}
+.content p{
+    font-size: 14px;
+    color: #000000;
+}
+.main-menu{
+    background-color: #00cce1;
+}
+.btn-appoinment{
+    background: #f69165;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight:500;
+    padding: 0;
+    padding: 17px 20px;
+    transition: 0.5s all ease-in-out;
+    border-radius: 0;
+    clip-path: polygon(6% 1%, 100% 0%, 94% 101%, 0 104%);
+}
+.btn-appoinment i{
+    margin-right: 5px;
+}
+.btn-appoinment:hover{
+    background-color: #f69165;
+}
+.nav-link{
+    color: #ffffff;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0 15px;
+}
+.nav-link:hover{
+    color: #ffffff;
+}
+.nav-link::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: -18px;
+    height: 3px;
+    background-color: #f69165;
+    width: 0;
+    transition: 0.5s all ease-in-out;
+}
+.nav-link:hover:before{
+    width: 100%;
+}
+.nav-item{
+    padding:0 15px;
+}
+.Banar{
+    background-image: url(../images/Banar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    position: relative;
+}
+.Banar h2{   
+    font-size: 35px;   
+    color: #ffffff;   
+    background: #00cce1;   
+    display: inline-block;    
+    text-transform: uppercase;    
+    padding: 10px 15px;
+    }
+.Banar h1{   
+    background: #f69165;   
+    font-size: 40px;   
+    color: #ffffff;    
+    margin-top:12px;   
+    padding: 8px;   
+    text-transform: uppercase;    
+    display: inline-block;   
+    padding: 10px 15px;
+    }
+.Banar p{   
+    color: #636363;  
+    margin-top: 10px;
+    position: relative;
+    font-size: 14px;
+    }
+.btn-Learn{
+    background: #ef7a47;
+    border-radius: 0;
+    padding: 12px 14px;
+    margin-top: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+    }
+.btn-Learn:hover{
+    background-color: #55e1f1;
+    color: #ffffff;
+}
+.btn-Book{
+    background: #00cce1;
+    border-radius: 0;
+    padding: 12px 14px;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+}
+.btn-Book:hover{
+    background-color: #f8ba9f;
+    color: #ffffff;
+}
+.height{
+    min-height: 80vh;
+    align-items: center;
+}
+.img-pic{
+    position: absolute;
+    bottom: 0 ;
+   margin: 0;
+    }
